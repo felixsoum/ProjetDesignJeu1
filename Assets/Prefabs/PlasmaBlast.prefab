@@ -47,9 +47,9 @@ MonoBehaviour:
   TriggerMode: 1
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 1
-  TimeBetweenUses: 0.25
+  TimeBetweenUses: 0.1
   TimeBetweenUsesReleaseInterruption: 0
-  Interruptable: 1
+  Interruptable: 0
   InitializeOnStart: 0
   MagazineBased: 0
   MagazineSize: 30
@@ -59,7 +59,7 @@ MonoBehaviour:
   AutoDestroyWhenEmpty: 0
   AutoDestroyWhenEmptyDelay: 1
   CurrentAmmoLoaded: 0
-  WeaponAttachmentOffset: {x: 0, y: 0.1, z: 0}
+  WeaponAttachmentOffset: {x: 0.25, y: 0.1, z: 0}
   FlipWeaponOnCharacterFlip: 1
   FlipValue: {x: -1, y: 1, z: 1}
   LeftHandHandle: {fileID: 0}
@@ -151,6 +151,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MutualizeWaitingPools: 0
   NestWaitingPool: 1
-  GameObjectToPool: {fileID: 100002, guid: c7a2328e2057cf747afceb7c07d5a660, type: 3}
+  GameObjectToPool: {fileID: 100002, guid: c2c59dcf1d46a654f982e19e61985cb0, type: 3}
   PoolSize: 20
   PoolCanExpand: 1

@@ -48,7 +48,7 @@ MonoBehaviour:
   DelayBeforeUseReleaseInterruption: 1
   TimeBetweenUses: 0.25
   TimeBetweenUsesReleaseInterruption: 0
-  Interruptable: 1
+  Interruptable: 0
   InitializeOnStart: 0
   MagazineBased: 0
   MagazineSize: 30
@@ -130,9 +130,9 @@ MonoBehaviour:
     Delay: 0
     RecoilFeedback: {fileID: 0}
   DamageAreaShape: 0
-  AreaSize: {x: 1.5, y: 1}
-  AreaOffset: {x: 0.25, y: 0}
-  InitialDelay: 0
+  AreaSize: {x: 3, y: 1}
+  AreaOffset: {x: 0.5, y: 0}
+  InitialDelay: 0.1
   ActiveDuration: 0.1
   TargetLayerMask:
     serializedVersion: 2
@@ -140,4 +140,4 @@ MonoBehaviour:
   DamageCaused: 10
   Knockback: 0
   KnockbackForce: {x: 10, y: 2}
-  InvincibilityDuration: 0.5
+  InvincibilityDuration: 0.1
