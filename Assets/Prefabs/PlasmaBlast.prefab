@@ -49,7 +49,7 @@ MonoBehaviour:
   DelayBeforeUseReleaseInterruption: 1
   TimeBetweenUses: 0.25
   TimeBetweenUsesReleaseInterruption: 0
-  Interruptable: 0
+  Interruptable: 1
   InitializeOnStart: 0
   MagazineBased: 0
   MagazineSize: 30
@@ -68,7 +68,7 @@ MonoBehaviour:
   PermanentMovementMultiplier: 0
   ModifyMovementWhileAttacking: 0
   MovementMultiplier: 0
-  PreventHorizontalMovementWhileInUse: 0
+  PreventHorizontalMovementWhileInUse: 1
   SetForceWhileInUse: 0
   ForceWhileInUse: {x: 0, y: 0}
   Animators: []

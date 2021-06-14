@@ -48,7 +48,7 @@ MonoBehaviour:
   DelayBeforeUseReleaseInterruption: 1
   TimeBetweenUses: 0.25
   TimeBetweenUsesReleaseInterruption: 0
-  Interruptable: 0
+  Interruptable: 1
   InitializeOnStart: 0
   MagazineBased: 0
   MagazineSize: 30
