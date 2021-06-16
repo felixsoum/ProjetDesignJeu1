@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6602359113111839852}
   - component: {fileID: 3343801975679084427}
   m_Layer: 0
-  m_Name: PlasmaBlast
+  m_Name: MushroomShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d7ce0b8cf4b34859b9e359283b2e7f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TriggerMode: 1
-  DelayBeforeUse: 0
-  DelayBeforeUseReleaseInterruption: 1
-  TimeBetweenUses: 0.25
+  TriggerMode: 0
+  DelayBeforeUse: 1
+  DelayBeforeUseReleaseInterruption: 0
+  TimeBetweenUses: 5
   TimeBetweenUsesReleaseInterruption: 0
   Interruptable: 0
   InitializeOnStart: 0
@@ -74,10 +74,10 @@ MonoBehaviour:
   Animators: []
   EquippedAnimationParameter: 
   IdleAnimationParameter: 
-  StartAnimationParameter: 
+  StartAnimationParameter: Attack
   DelayBeforeUseAnimationParameter: 
   SingleUseAnimationParameter: 
-  UseAnimationParameter: PlasmaBlast
+  UseAnimationParameter: 
   DelayBetweenUsesAnimationParameter: 
   StopAnimationParameter: 
   ReloadStartAnimationParameter: 
@@ -132,8 +132,8 @@ MonoBehaviour:
     RecoilFeedback: {fileID: 0}
   ProjectileSpawnTransform: {fileID: 0}
   ProjectileSpawnOffset: {x: 0, y: 0, z: 0}
-  ProjectilesPerShot: 1
-  Spread: {x: 0, y: 0, z: 0}
+  ProjectilesPerShot: 4
+  Spread: {x: 0, y: 0, z: 45}
   RotateWeaponOnSpread: 0
   RandomSpread: 1
   SpawnPosition: {x: 0, y: 0, z: 0}
@@ -151,6 +151,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MutualizeWaitingPools: 0
   NestWaitingPool: 1
-  GameObjectToPool: {fileID: 100002, guid: c2c59dcf1d46a654f982e19e61985cb0, type: 3}
+  GameObjectToPool: {fileID: 100002, guid: d17797a74a2f18648b4330d04c031871, type: 3}
   PoolSize: 20
   PoolCanExpand: 1

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 114000012788668036}
   - component: {fileID: 114000010281602892}
   m_Layer: 16
-  m_Name: PlasmaBlastBullet
+  m_Name: MushroomBullet
   m_TagString: Untagged
   m_Icon: {fileID: 1177953632, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -51,7 +51,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.06438446, y: -0.06241703}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -62,7 +62,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.25}
+  m_Size: {x: 0.6293335, y: 0.6286411}
   m_EdgeRadius: 0
 --- !u!50 &50000011384318294
 Rigidbody2D:
@@ -100,7 +100,7 @@ MonoBehaviour:
   BoundsBasedOn: 1
   LifeTime: 5
   FaceDirection: 1
-  Speed: 200
+  Speed: 50
   Acceleration: 0
   Direction: {x: -1, y: 0, z: 0}
   DirectionCanBeChangedBySpawner: 1
@@ -126,9 +126,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetLayerMask:
     serializedVersion: 2
-    m_Bits: 271104
-  DamageCaused: 5
-  DamageCausedKnockbackType: 0
+    m_Bits: 262912
+  DamageCaused: 1
+  DamageCausedKnockbackType: 1
   DamageCausedKnockbackDirection: 0
   DamageCausedKnockbackForce: {x: 10, y: 2}
   InvincibilityDuration: 0.1
@@ -201,7 +201,7 @@ Transform:
   m_GameObject: {fileID: 4137323748921991929}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400002}
   m_RootOrder: 2
@@ -247,8 +247,7 @@ SpriteRenderer:
   m_SortingLayerID: -1628607475
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1927905397415065607, guid: e226b6f780b27884f9762fca2cb0c9c0,
-    type: 3}
+  m_Sprite: {fileID: 201187127600612943, guid: fb5b378305723e14f8935a12b293e548, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
